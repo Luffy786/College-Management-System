@@ -1,0 +1,48 @@
+.timetable-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .timetable-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .timetable-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .timetable-day {
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .timetable-day:hover {
+    transform: scale(1.05);
+  }
+  
+  .day-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .subjects-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .subject-item {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+  

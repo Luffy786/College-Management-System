@@ -1,0 +1,42 @@
+.notices-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .notices-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .notices-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .notice-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notice-title {
+    font-size: 18px;
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .notice-date {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .notice-content {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
